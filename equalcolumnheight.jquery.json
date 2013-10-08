@@ -1,0 +1,27 @@
+{
+  "name": "equalcolumnheight",
+  "title": "Equal Column Height jQuery Plugin",
+  "description": "jQuery plugin to set all columns to an equal height",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mortennajbjerg/jquery.equalcolumnheight",
+  "author": {
+    "name": "Morten Najbjerg",
+    "email": "najbjerg@ilab.dk",
+    "url": "http://najbjerg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mortennajbjerg/jquery.equalcolumnheight.git"
+  },
+  "bugs": "https://github.com/mortennajbjerg/jquery.equalcolumnheight/issues",
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "https://github.com/mortennajbjerg/jquery.equalcolumnheight/blob/master/LICENSE-GPL"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
