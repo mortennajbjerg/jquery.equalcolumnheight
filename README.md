@@ -25,6 +25,7 @@ This is a really simple jQuery plugin for fixing responsive column height proble
 No confusing settings.
 
 ## Examples
-For a demonstration of what this
+For a demonstration of what this plugin does:
+
 [See a demonstration of the jQuery equal column plugin](https://rawgithub.com/mortennajbjerg/jquery.equalcolumnheight/master/demo/index.html)
 
