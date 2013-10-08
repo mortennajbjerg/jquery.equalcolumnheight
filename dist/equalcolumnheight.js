@@ -1,11 +1,6 @@
-/*
-* equalcolumnheight
+/*! Equal Column Height jQuery Plugin - v0.1.0 - 2013-10-08
 * https://github.com/mortennajbjerg/jquery.equalcolumnheight
-*
-* Copyright (c) 2013 Morten Najbjerg
-* Licensed under the GPLv3 license.
-*/
-
+* Copyright (c) 2013 Morten Najbjerg; Licensed GPLv3 */
 (function($) {
 
     $.fn.equalcolumnheight = function() {

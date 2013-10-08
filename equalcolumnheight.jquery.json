@@ -6,7 +6,7 @@
   "homepage": "https://github.com/mortennajbjerg/jquery.equalcolumnheight",
   "author": {
     "name": "Morten Najbjerg",
-    "email": "najbjerg@ilab.dk",
+    "email": "kontakt@najbjerg.com",
     "url": "http://najbjerg.com"
   },
   "repository": {
@@ -16,8 +16,8 @@
   "bugs": "https://github.com/mortennajbjerg/jquery.equalcolumnheight/issues",
   "licenses": [
     {
-      "type": "GPL",
-      "url": "https://github.com/mortennajbjerg/jquery.equalcolumnheight/blob/master/LICENSE-GPL"
+      "type": "GPLv3",
+      "url": "https://github.com/mortennajbjerg/jquery.equalcolumnheight/blob/master/LICENSE"
     }
   ],
   "dependencies": {

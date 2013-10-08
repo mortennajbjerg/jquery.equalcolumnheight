@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Test Equal Column Height jQuery plugin</title>
+    
+    <style>
+        
+        /* apply a natural box layout model to all elements */
+        *, *:before, *:after {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        IMG{
+            height: auto;
+            max-width: 100%;
+        }
+        
+        BODY,
+        HTML{
+            font: 17px/1.3 'helvetica', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container{
+            margin: 0 auto;
+            padding: 0 20px;
+            max-width: 1100px;
+        }
+        
+        UL,
+        LI{
+            margin: 0;
+            padding: 0;
+        }
+        
+        LI{
+            background: #EEE;
+            display: inline;
+            float: left;
+            list-style: none;
+            margin: 20px 1%;
+            padding: 20px;
+            width: 23%;
+        }
+        
+        @media (max-width: 768px) {
+            LI{
+                width: 48%;
+            }
+        }
+        
+        @media (max-width: 478px) {
+            LI{
+                display: block;
+                float: none;
+                width: 98%;
+            }
+        }
+        
+    </style>
+    
+    <script src="../libs/jquery/jquery.js"></script>
+    <script src="../src/equalcolumnheight.js"></script>
+    <script>
+        
+        $(function() {
+            $('li').equalcolumnheight();
+        });
+        
+    </script>
+    
+</head>
+<body>
+
+    <div class="container">
+        
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, officia, eveniet, assumenda, repudiandae temporibus ducimus ab eum quos impedit veritatis provident enim vel reiciendis sit animi minima eaque asperiores qui.</li>
+            <li><img src="http://placehold.it/400x250" alt="" />Quod, libero, aut, eveniet officia voluptatibus reprehenderit optio aspernatur quam sapiente quibusdam fugit asperiores praesentium repudiandae assumenda quia architecto aperiam. Quisquam, perspiciatis, soluta sint fuga nostrum mollitia illum debitis iure.</li>
+            <li>Necessitatibus, blanditiis, quidem nobis vitae maiores minus nihil magni similique libero labore? Nam, libero, qui, est corporis nesciunt minima velit eum cum nihil harum nemo sunt dolor ducimus nisi possimus.</li>
+            <li>Mollitia, aut voluptatum incidunt sunt provident natus in veniam velit fugit voluptas deserunt aliquid ex vel cupiditate placeat vitae doloribus impedit minima eius alias dignissimos consequuntur cumque non distinctio inventore.</li>
+            <li>Impedit, harum, suscipit, blanditiis tenetur fugiat adipisci eos nobis eveniet quam quibusdam maxime quis saepe inventore delectus ipsam illum atque necessitatibus ea numquam nostrum asperiores quas dignissimos pariatur porro hic!</li>
+            <li>Vero, eius, ducimus in ipsum nam dolorum reprehenderit laudantium nobis exercitationem explicabo accusamus provident! Adipisci architecto autem minima nobis quam est cumque officia voluptatibus ratione. Consectetur, nisi et vero quam.</li>
+            <li>Eaque, consequatur, nobis, magni fugit eveniet blanditiis corporis adipisci quaerat sunt cupiditate numquam a quae. Quaerat, error vero magnam obcaecati esse laboriosam ut maiores amet saepe velit ea eveniet cum.</li>
+            <li>
+                <img src="http://placehold.it/400x200" alt="" />
+                Doloribus, quaerat, a, tempora quo nihil nemo atque reiciendis error tempore excepturi veniam temporibus odit consequatur sequi deleniti magni doloremque architecto commodi corporis porro dignissimos nisi perferendis impedit. Assumenda, nisi.
+            </li>
+            <li>Nisi, quas, fuga dolores natus cumque rem doloremque veritatis eum eveniet sed consectetur molestias blanditiis eos ad accusantium sunt libero cupiditate fugit odio ratione? Aperiam, officiis explicabo maiores vero. Sit.</li>
+            <li>Cumque, sequi, quia dolor ducimus molestiae saepe aperiam dolores suscipit accusantium ex nemo magnam dolore vel molestias tenetur asperiores maiores perferendis eius sit excepturi eaque et animi distinctio nihil earum!</li>
+            <li>Odit, suscipit dolore ipsam quia modi eum architecto deserunt nobis sint mollitia velit rem pariatur veritatis sunt recusandae consectetur perferendis vitae accusantium officia cupiditate est libero voluptate vero non ipsum.</li>
+            <li>Quidem, corrupti, dolorum, suscipit, explicabo neque deleniti odit vel natus fuga obcaecati iste ex consequatur quae provident inventore repellat optio tenetur sequi vitae veniam corporis nemo soluta perspiciatis nulla cumque.</li>
+            <li>Aperiam dolorem minima quis saepe cupiditate nobis ea debitis necessitatibus? Temporibus, modi, quod eos officia cupiditate quo nobis ratione. Cupiditate, impedit corporis sint veritatis vitae nemo adipisci eum magnam sed.</li>
+            <li>Doloribus, ducimus, ipsum, dolorem expedita eligendi alias reprehenderit iusto consequuntur nesciunt vero tempore minus deserunt laudantium ratione dignissimos. Eum, omnis vel quo sequi officiis numquam eos ducimus at suscipit est?</li>
+            <li>Quas, molestias, rerum, ipsa, eligendi sequi soluta modi illo error nisi ratione possimus eos accusantium expedita velit incidunt culpa quae architecto itaque beatae numquam laudantium ut recusandae natus provident odio.</li>
+            <li><img src="http://placehold.it/400x200" alt="" />Quaerat, neque, quidem repellat laudantium voluptas nemo sunt quis a repellendus saepe architecto quam at ab? Voluptatum, qui, nihil, id, autem hic veniam unde temporibus rem nemo distinctio laudantium quae.</li>
+            <li>Officia, consequuntur, quidem, ducimus repudiandae unde assumenda enim facere animi eveniet quasi asperiores at tempora quis iste consectetur libero qui eos laudantium quo alias. Doloribus sapiente quia corporis delectus ipsa!</li>
+            <li>Nam, recusandae, deleniti aliquid quas totam harum error in placeat exercitationem incidunt rem minus accusantium nulla ipsam pariatur ad praesentium vitae voluptate ipsum alias impedit minima tempora est id quidem.</li>
+            <li>Obcaecati, ducimus, reiciendis, consequuntur quos ut dolorem veritatis minus atque repudiandae explicabo assumenda eaque commodi odit deserunt id nemo culpa voluptatum dicta repellendus quaerat ad sapiente asperiores alias modi voluptatem.</li>
+            <li>Iste, ullam, consequuntur eveniet nostrum voluptate odit sequi obcaecati aliquam ex architecto molestiae culpa impedit soluta asperiores accusamus cum eum corrupti omnis sapiente id minus laudantium incidunt illo perferendis nihil.</li>
+        </ul>
+        
+    </div>
+    
+</body>
+</html>
