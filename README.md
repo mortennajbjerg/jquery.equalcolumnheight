@@ -21,10 +21,8 @@ jQuery(function($) {
 ```
 
 ## Documentation
-_(Coming soon)_
+This is a really simple jQuery plugin for fixing responsive column height problems. Just use the function mentioned above and get equal column height on your responsive webpage.
 
 ## Examples
-_(Coming soon)_
+[See a demonstration](https://rawgithub.com/mortennajbjerg/jquery.equalcolumnheight/master/demo/index.html)
 
-## Release History
-_(Nothing yet)_
