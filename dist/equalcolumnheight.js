@@ -21,9 +21,7 @@
         
         // Set a height on all elements
         var setElementsHeight = function(value) {
-            $.map( $this, function(e){ 
-                $(e).css('height', value);
-            });
+            $this.css('height', value);
         };
         
         var init = function() {
