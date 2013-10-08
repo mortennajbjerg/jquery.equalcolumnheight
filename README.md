@@ -15,7 +15,7 @@ In your web page:
 <script src="dist/equalcolumnheight.min.js"></script>
 <script>
 jQuery(function($) {
-  $.awesome(); // "awesome"
+    $('.columns').equalcolumnheight();
 });
 </script>
 ```
